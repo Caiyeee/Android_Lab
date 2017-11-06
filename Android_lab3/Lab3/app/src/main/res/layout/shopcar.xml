@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="W"
+        android:gravity="center"
+        android:id="@+id/cir_list"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/name_list"
+        android:text="购物车"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/price_list"
+        android:text="价格"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+</LinearLayout>
