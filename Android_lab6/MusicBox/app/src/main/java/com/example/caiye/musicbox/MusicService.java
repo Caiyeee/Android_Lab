@@ -77,9 +77,9 @@ public class MusicService extends Service {
         try{
             mp = new MediaPlayer();
         //    mp.setDataSource(Environment.getExternalStorageDirectory()+"/Download/melt.mp3"); //手机7.1
-        //    mp.setDataSource(Environment.getExternalStorageDirectory()+"/Music/melt.mp3"); //手机4.4
+            mp.setDataSource(Environment.getExternalStorageDirectory()+"/Music/melt.mp3"); //手机4.4
         //    mp.setDataSource("/storage/0D08-3902/melt.mp3"); //虚拟机高版本
-            mp.setDataSource("/data/melt.mp3");  //虚拟机低版本
+        //    mp.setDataSource("/data/melt.mp3");  //虚拟机低版本
             mp.prepare();
             mp.setLooping(true);
         }catch (Exception e){
